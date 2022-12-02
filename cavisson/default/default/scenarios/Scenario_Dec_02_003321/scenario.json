@@ -95,7 +95,7 @@
           "Internet",
           "0",
           "default/default/Mercury_Tours",
-          "10",
+          "11",
           ""
         ]
       ]
@@ -171,11 +171,15 @@
   "lastModifedBy": "Shivam",
   "scripts": {
     "Group_1": {
-      "headers": {},
+      "headers": {
+        "Accept": "text/plain,application/json,text/html,application/javascript,application/xml",
+        "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 6.0; de-DE) AppleWebKit/533.21.1 (KHTML, like Gecko) Version/5.0.5 Safari/533.21.1",
+        "Accept-Encoding": " gzip, deflate, br, compress;q\u003d0.9"
+      },
       "flows": {}
     }
   },
   "version": "1.0",
-  "lastModifedTime": "02/12/2022 00:33:52",
+  "lastModifedTime": "02/12/2022 00:37:33",
   "info": "This is auto generated scenario configuration JSON created by UI. You should not manually edit this file as any syntax error may result in loss of complete configuration. If you make any changes, you must run following program to validate and convert to scenario file used for the running test: nsu_json_to_cav_script  -p \u003cproject\u003e/\u003csub-project\u003e/\u003cscenario_name\u003e -u \u003cusername\u003e -s \u003cwork space\u003e (e.g admin/system or \u003cusername\u003e/\u003cprofile\u003e)"
 }
